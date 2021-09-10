@@ -75,3 +75,7 @@ wann sich was geändert hat !
 1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain!
 2.Wenn WebInterface LL1L2L3?Value=200.66&Mode=SetAuto... genutzt wird dann schon alle sekunden senden
 Der esp ansich schickt schon jede sekunde den zuletzt angenommenen Wert.
+
+
+Spenden sind herzlich willkommen und würde sehr freuen :-)
+Hier bitte - https://paypal.me/armerprogrammer
