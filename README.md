@@ -33,10 +33,11 @@ RS485 ttl Adapter (2 verschiedene getestet)
 - rs485 adapter A an A von Soyo anschliessen und B an B
 
 -Beim "DI DE RE RO" Rs485 Modul
-werden die mittleren Pins DE RE auf einen Pin gebrückt an GPIO0 an den Esp angeschlossen
-Dann DI auf Tx von Esp und RO auf RX von ESP
+werden die mittleren Rs485 Pins "DE RE" auf einen Pin gebrückt an GPIO0 an den Esp angeschlossen.
+Dann Rs485 "DI" auf Esp TX  und Rs485 "RO" auf Esp RX 
 
--Beim RX TX rs485 adapter  Rs485 TX mit Esp TX verbinden und RX mit RX , also nicht kreuzen
+-Beim RX TX Rs485 Modul
+wird der Rs485 TX mit Esp TX verbunden und Rs485 RX mit Esp RX verbunden , also nicht kreuzen!
 
 !Vcc ist bei beiden Modulen 3.3volt!
 
