@@ -21,7 +21,7 @@ Grundlegend ist FAKT: wann der SOYO Wechselrichter keine Signale über Rs485 ges
 - In der Web Seite kann man per Button die maximale Einspeiseleistung eingestellt werden(MaxPower)
 - Die blinkende Überschrift in der Webseite ist ein Alive zeichen , solange die Überschrift "ESP Herzschlag" blinkt , ist alles gut
 - Wann der Soyosource einspeisst , blinkt die DCZeile in der Esp Webseite
--Derzeit pendelt der Esp sich im Toleranz Bereich -20 |0| +5 Watt ein , geplant ist die Toleranzwerte einzustellen zu können wann jemand gar keine -watts(Einspeisung ins Netz) sehen will.
+- Derzeit pendelt der Esp sich im Toleranz Bereich -20 |0| +5 Watt ein , geplant ist die Toleranzwerte einzustellen zu können wann jemand gar keine -watts(Einspeisung ins Netz) sehen will.
 - Doppelreset implementierung um wieder ins Configportal im eigenen Esp AP zu kommen
 - ElegantOta Implementierung für FirmwareUpdates
 - ...
