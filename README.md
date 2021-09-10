@@ -1,0 +1,2 @@
+# EspSoyosourceController
+Der Esp8266 ist über ein Rs485 Modul mit dem Soyosource 1200 verbunden und kann diesem die Leistungswerte senden. ManualMode: Der Leistungswert kann auf der Esp Webseite eingegeben und gesendet werden. AutoMode: Der Esp empfängt über Mqtt Topic den LeistungsWert (z.B. der Wert einer Messeinrichtung über die 3 Phasen)der gewünschten zu regelnden Leistung und regelt den Soyosource automatisch.
