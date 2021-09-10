@@ -2,7 +2,7 @@
 Der Esp8266 ist über ein Rs485 Modul mit dem Soyosource 1200 verbunden und kann diesem die Leistungswerte senden. ManualMode: Der Leistungswert kann auf der Esp Webseite eingegeben und gesendet werden. AutoMode: Der Esp empfängt über Mqtt Topic oder WebInterface den LeistungsWert (z.B. der Wert einer Messeinrichtung über die 3 Phasen)der gewünschten zu regelnden Leistung und regelt den Soyosource automatisch.
 
 Die Firmware(firmware_vX.X.X.X.bin") ist im Verzeichnis espflasher.
-Diese kann unkompliziert auf einen 4Mbyte Esp mit dem darin enhaltenen
+Diese kann unkompliziert auf einen 4Mbyte Esp mit dem im Verzeichnis enhaltenen
 Tool "FlashESP8266.exe" geflasht werden. 
 Dieses Tool FlashESP8266.exe ist nicht von mir , aber hat schon hevorragende Dienste geleistet.
 
@@ -77,5 +77,5 @@ wann sich was geändert hat !
 Der esp ansich schickt schon jede sekunde den zuletzt angenommenen Wert.
 
 
-Spenden sind herzlich willkommen und würde sehr freuen :-)
+Spenden sind herzlich willkommen und würde mich sehr freuen :-)
 Hier bitte - https://paypal.me/armerprogrammer
