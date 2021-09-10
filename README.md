@@ -24,9 +24,13 @@ Grundlegend ist FAKT: wann der SOYO Wechselrichter keine Signale über Rs485 ges
 
 
 RS485 ttl Adaper
-- dein rs485 adapter a an Rot von soyo Kabel anschliessen , schwarz ist B
-- bei meinem rs485 adapter habe ich Rs485TX mit EspTX verbinden müssen , also nicht kreuzen
-- rx brauchz du derzeit noch nicht
+- rs485 adapter A an A von Soyo anschliessen und B an B
+Beim "DI DE RE RO" Rs485 Modul werden die mittleren Pins DE RE auf einen Pin gebrückt an GPIO0 an den Esp angeschlossen
+Dann DI auf Tx von Esp und RO auf RX von ESP
+
+Beim RX TX rs485 adapter  Rs485 TX mit Esp TX verbinden und RX mit RX , also nicht kreuzen
+
+Vcc ist bei beiden Modulen 3.3volt!
 
 
 ESP:
