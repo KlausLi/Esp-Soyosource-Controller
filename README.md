@@ -56,37 +56,37 @@ wird der Rs485 TX mit Esp TX verbunden und Rs485 RX mit Esp RX verbunden , also 
 ESP:
 
 EINRICHTUNG##############################################################################################
-0.Bei Nutzung von Mqtt: Mqtt.fx Client öffnen mit Broker verbinden und Topic : 'Soyosource/#' abonnieren
-0.1 Es kommt nach Schritt 8. ein Info Publish vom Esp mit der IP adresse.
-0.2 Man kann die Ip Adresse nat. auch auf dem herkömmlichen Weg herausfinden
-1.Firmware auf den gelöschten Esp8266 flashen
-2.Esp Neustart
-3.Im Wlan nach SOYO_... suchen
-4.Wlan mit Pwd 12345678 verbinden
-5.Es öffnet sich automatisch Browser Fenster mit 192.168.4.1
-6.Unter Configuration
-6.1 Wifi auswählen oder eingeben und Passwort eingeben
-6.2 Mqtt kann derzeit nur ohne ssl und ohne Benutzer/Passwort benutzt werden
-7.Speichern mit dem Button ganz unten
-8.Esp Neustart
-9.Ipadresse in Mqtt Client oder Router ausfindig machen
+- 0.Bei Nutzung von Mqtt: Mqtt.fx Client öffnen mit Broker verbinden und Topic : 'Soyosource/#' abonnieren
+- 0.1 Es kommt nach Schritt 8. ein Info Publish vom Esp mit der IP adresse.
+- 0.2 Man kann die Ip Adresse nat. auch auf dem herkömmlichen Weg herausfinden
+- 1.Firmware auf den gelöschten Esp8266 flashen
+- 2.Esp Neustart
+- 3.Im Wlan nach SOYO_... suchen
+- 4.Wlan mit Pwd 12345678 verbinden
+- 5.Es öffnet sich automatisch Browser Fenster mit 192.168.4.1
+- 6.Unter Configuration
+- 6.1 Wifi auswählen oder eingeben und Passwort eingeben
+- 6.2 Mqtt kann derzeit nur ohne ssl und ohne Benutzer/Passwort benutzt werden
+- 7.Speichern mit dem Button ganz unten
+- 8.Esp Neustart
+- 9.Ipadresse in Mqtt Client oder Router ausfindig machen
 EINRICHTUNG#############################################################################################
 
 INBETRIEBNAHME##########################################################################################
-1.Ipaddresse im browser aufrufen
-2.L1L2L3 Topic von geöffneter Webseite in deinen iobroker/nodered ... übernehmen
+- 1.Ipaddresse im browser aufrufen
+- 2.L1L2L3 Topic von geöffneter Webseite in deinen iobroker/nodered ... übernehmen
 ODER wann Nutzung von Mqtt aus ist :
-3.IPADRESS:80/L1L2L3?Value=200.66&Mode=SetAuto
-3.1 IPADRESS durch die ip vom ESP ersetzen, 200.66 stellt den kummulierten Wert deiner 2/3 phasen da
+- 3.IPADRESS:80/L1L2L3?Value=200.66&Mode=SetAuto
+- 3.1 IPADRESS durch die ip vom ESP ersetzen, 200.66 stellt den kummulierten Wert deiner 2/3 phasen da
 INBETRIEBNAHME##########################################################################################
 
 Tip:
-nur leistungsdaten über L1L2L3 (egal welches Interface) senden
-wann sich was geändert hat !
-1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain!
-2.Wenn WebInterface LL1L2L3?Value=200.66&Mode=SetAuto... genutzt wird dann schon alle sekunden senden
-Der esp ansich schickt schon jede sekunde den zuletzt angenommenen Wert.
+-  nur leistungsdaten über L1L2L3 (egal welches Interface) senden
+wann sich was geändert hat ! Der esp ansich schickt schon jede sekunde den zuletzt angenommenen Wert.
+
+- 1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain! ... kein muss
+- 2.Wenn WebInterface LL1L2L3?Value=200.66&Mode=SetAuto... genutzt wird dann schon alle sekunden senden
 
 
-Spenden sind herzlich willkommen und würde mich sehr freuen :-)
+Falls Ihr mich unterstützen wollt, Spenden sind herzlich willkommen und würde mich sehr freuen :-)
 Hier bitte - https://paypal.me/armerprogrammer
