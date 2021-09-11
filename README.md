@@ -1,3 +1,8 @@
+Ich übernehme keine Haftung für Schäden, die aufgrund der Nutzung 
+der Software entstehen oder entstanden sind. 
+Jeder ist für sein tun selber verantwortlich.
+Mir sind keine Probleme bekannt.
+
 <img src="Soyosource.png" alt="Soyosource Controller by BavarianSuperGuy"/>
 
 # EspSoyosourceController mit Webseite
