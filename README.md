@@ -52,6 +52,7 @@ wird der Rs485 TX mit Esp TX verbunden und Rs485 RX mit Esp RX verbunden , also 
 
 !Vcc ist bei beiden Modulen 3.3volt!
 
+Keinen USB/TTL Adapter als 3,3v Poduktiv Stromquelle verwenden, für erstflashen is es OK!
 
 ESP:
 
