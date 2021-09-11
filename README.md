@@ -1,4 +1,4 @@
-# EspSoyosourceController
+# EspSoyosourceController mit Webseite
 Der Esp8266 ist über ein Rs485 Modul mit dem Soyosource 1200 Solar/Batterie Wechselrichter verbunden und kann diesem die Leistungswerte senden die er im Stromnetz ausgleichen/einspeisen soll. 
 ManualMode: Der Leistungswert kann auf der Esp Webseite eingegeben und gesendet werden. 
 AutoMode: Der Esp empfängt über Mqtt Topic oder WebInterface den LeistungsWert (z.B. der Wert einer Messeinrichtung über die 3 Phasen)
@@ -10,6 +10,8 @@ Die Firmware(firmware_vX.X.X.X.bin") ist im Verzeichnis espflasher.
 Diese kann unkompliziert auf einen 4Mbyte Esp mit dem im Verzeichnis enhaltenen
 Tool "FlashESP8266.exe" geflasht werden. 
 Dieses Tool FlashESP8266.exe ist nicht von mir , aber hat schon hevorragende Dienste geleistet.
+
+<img src="Webseite SOYOSOURCE Controller.png" alt="Soyosource Controller by BavarianSuperGuy"/>
 
 Was kann der ESP8266 Soyosource Controller :
 
