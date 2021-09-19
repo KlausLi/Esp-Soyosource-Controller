@@ -41,11 +41,12 @@ Grundlegend ist FAKT: wann der SOYO Wechselrichter keine Signale über Rs485 ges
 (Für UPDATE: Wann der ESP in Betriebsart Httpclient eingestellt ist , vor update auf eine ruhige zone einstellen z.B. statisch Mqtt
 nach Update dann wieder zurückstellen und Übernehmen)
 - Betriebs Modi's:
-# Automatik HttpInterface
-# Automatik Mqtt
-# Automatik HttpClient(Shelly) mit Angabe ShellyIpAddresse greift auf die api "http://xxx.xxx.xxx.xxx/emeter/0 -2" zu
-# Statisch HttpInterface und WebGui
-# Statisch Mqtt(derzeit noch keine Funktion)
+ Automatik HttpInterface
+ Automatik Mqtt
+ Automatik HttpClient(Shelly) mit Angabe ShellyIpAddresse greift auf die api "http://xxx.xxx.xxx.xxx/emeter/0 -2" zu
+ Statisch HttpInterface und WebGui
+ Statisch Mqtt(derzeit noch keine Funktion)
+ - Alle Interface's funktionieren weiterhin , jedoch wird der Wert nur von der ausgewählten Betriebsart und dessen Interface ausgewertet
 
 - ...
 
