@@ -100,7 +100,7 @@ CONFIGPORTAL####################################################################
 Um im Nachhinein wieder ins Configportal zu kommen um die Wlan und Mqtt Daten zu ändern muss der 
 - Pin RST vom ESP innerhalb 10sekunden 2X auf GND getippt werden
 - Anwendungsbispiel: Taster 2mal hintereinander drücken
-Daraufhin startet der ESP neu ins Configportal , dort trägt man dann alle Daten neu ein, die fehlen
+Daraufhin startet der ESP neu ins Configportal(EINRICHTUNG Punkt 3) , dort trägt man dann alle Daten neu ein, die fehlen
 und klickt auf Save (Button ganz unten)
 CONFIGPORTAL############################################################################################
 
