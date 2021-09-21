@@ -82,7 +82,7 @@ EINRICHTUNG#####################################################################
 - 5.Es öffnet sich automatisch Browser Fenster mit 192.168.4.1
 - 6.Unter Configuration
 - 6.1 Wifi auswählen oder eingeben und Passwort eingeben
-- 6.2 Mqtt kann derzeit nur ohne ssl und ohne Benutzer/Passwort benutzt werden
+- 6.2 Mqtt kann derzeit nur ohne ssl und seit Version 1.0.1.1 mit  Benutzer/Passwort benutzt werden
 - 7.Speichern mit dem Button ganz unten
 - 8.Esp Neustart
 - 9.Ipadresse in Mqtt Client oder Router ausfindig machen
@@ -95,6 +95,14 @@ ODER wann Nutzung von Mqtt aus ist :
 - 3.IPADRESS:80/L1L2L3?Value=200.66&Mode=SetAuto
 - 3.1 IPADRESS durch die ip vom ESP ersetzen, 200.66 stellt den kummulierten Wert deiner 2/3 phasen da
 INBETRIEBNAHME##########################################################################################
+
+CONFIGPORTAL############################################################################################
+Um im Nachhinein wieder ins Configportal zu kommen um die Wlan und Mqtt Daten zu ändern muss der 
+- Pin RST vom ESP innerhalb 10sekunden 2X auf GND getippt werden
+- Anwendungsbispiel: Taster 2mal hintereinander drücken
+Daraufhin startet der ESP neu ins Configportal , dort trägt man dann alle Daten neu ein, die fehlen
+und klickt auf Save (Button ganz unten)
+CONFIGPORTAL############################################################################################
 
 Tip:
 -  nur leistungsdaten über L1L2L3 (egal welches Interface) senden
