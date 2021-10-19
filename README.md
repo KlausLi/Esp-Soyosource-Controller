@@ -51,7 +51,6 @@ nach Update dann wieder zurückstellen und Übernehmen)
  Auto Subscribe L1L2L3 Mqtt(wann man schon ein smartmeter mqtt publish Topic hat, kann man das hier eintragen)
  - Alle Interface's funktionieren weiterhin , jedoch wird der Wert nur von der ausgewählten Betriebsart und dessen Interface ausgewertet
  NULL Punkt Einstellung - wann keine "reine" ~null~ einspeisung gewünscht kann bis zu 150watt verbrauch stehengelassen werden
- Update 19.10.2021 13:41 NULL Punkt Einstellung hat noch nen Denkfehler drin (in Std Einstellung funktioniert alles wie gewohnt)
  
  Wann in den blauen Bereichen was geändert wird muss es mit "Save Controller"  übernommen werden.
 
