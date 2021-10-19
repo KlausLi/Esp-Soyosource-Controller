@@ -3,6 +3,8 @@ der Software entstehen oder entstanden sind.
 Jeder ist für sein tun selber verantwortlich.
 Mir sind keine Probleme bekannt.
 
+Internet Explorer wird nicht unterstützt!(die kochen wieder eigenes Sueppchen bei Slider funktion)
+
 <img src="Soyosource.png" alt="Soyosource Controller by BavarianSuperGuy"/>
 
 # EspSoyosourceController mit Webseite
@@ -41,12 +43,16 @@ Grundlegend ist FAKT: wann der SOYO Wechselrichter keine Signale über Rs485 ges
 (Für UPDATE: Wann der ESP in Betriebsart Httpclient eingestellt ist , vor update auf eine ruhige zone einstellen z.B. statisch Mqtt
 nach Update dann wieder zurückstellen und Übernehmen)
 - Betriebs Modi's:
- Automatik HttpInterface
- Automatik Mqtt
- Automatik HttpClient(Shelly) mit Angabe ShellyIpAddresse greift auf die api "http://xxx.xxx.xxx.xxx/emeter/0 -2" zu
- Statisch HttpInterface und WebGui
- Statisch Mqtt(derzeit noch keine Funktion)
+ Auto HttpInterface
+ Auto Mqtt
+ Auto HttpClient(Shelly3M) mit Angabe ShellyIpAddresse greift auf die api "http://xxx.xxx.xxx.xxx/emeter/0 -2" zu
+ bzw. jenachdem welche Phasen (L1-L3) ausgewählt wurden
+ Static HttpInterface und WebGui
+ Auto Subscribe L1L2L3 Mqtt(wann man schon ein smartmeter mqtt publish Topic hat, kann man das hier eintragen)
  - Alle Interface's funktionieren weiterhin , jedoch wird der Wert nur von der ausgewählten Betriebsart und dessen Interface ausgewertet
+ NULL Punkt Einstellung - wann keine "reine" ~null~ einspeisung gewünscht kann bis zu 150watt verbrauch stehengelassen werden
+ 
+ Wann in den blauen Bereichen was geändert wird muss es mit "Save Controller"  übernommen werden.
 
 - ...
 
