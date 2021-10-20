@@ -3,6 +3,12 @@ der Software entstehen oder entstanden sind.
 Jeder ist für sein tun selber verantwortlich.
 Mir sind keine Probleme bekannt.
 
+3 Dinge sind wichtig für die Umsetzung dieses Projekts:
+- 3,3V
+- Guter Wlan Empfang
+- Readme vollstandig lesen, dann nochmal
+
+
 Internet Explorer wird nicht unterstützt!(die kochen wieder eigenes Sueppchen bei Slider funktion)
 
 <img src="Soyosource.png" alt="Soyosource Controller by BavarianSuperGuy"/>
@@ -38,6 +44,8 @@ Grundlegend ist FAKT: wann der SOYO Wechselrichter keine Signale über Rs485 ges
 - Die blinkende Überschrift in der Webseite ist ein Alive zeichen , solange die Überschrift "ESP Herzschlag" blinkt , ist alles gut
 - Wann der Soyosource einspeisst , blinkt die DCZeile in der Esp Webseite
 - Derzeit pendelt der Esp sich im Toleranz Bereich -20 |0| +5 Watt ein , geplant ist die Toleranzwerte einzustellen zu können wann jemand gar keine -watts(Einspeisung ins Netz) sehen will.
+- Anzeige der Wlan Signalstärke in der Webseite, je näher an 0 desto besser ist das Signal, z.B. 75 is grenzwertig OK 
+(RSSI wird nicht aktualisiert, für aktuellen Wert, F5 im Browser drücken)
 - Doppelreset implementierung um wieder ins Configportal im eigenen Esp AP zu kommen
 - ElegantOta Implementierung für FirmwareUpdates 
 (Für UPDATE: Wann der ESP in Betriebsart Httpclient eingestellt ist , vor update auf eine ruhige zone einstellen z.B. statisch Mqtt
