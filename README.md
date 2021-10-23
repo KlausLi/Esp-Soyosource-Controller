@@ -118,7 +118,7 @@ INBETRIEBNAHME##################################################################
 - 1.Ipaddresse im browser aufrufen
 - 2.L1L2L3 Topic von geöffneter Webseite in deinen iobroker/nodered ... übernehmen
 ODER wann Nutzung von Mqtt aus ist :
-- 3.IPADRESS:80/L1L2L3?Value=200.66&Mode=SetAuto
+- 3.IPADRESS:80/L1L2L3Auto?Value=200.66
 - 3.1 IPADRESS durch die ip vom ESP ersetzen, 200.66 stellt den kummulierten Wert deiner 2/3 phasen da
 INBETRIEBNAHME##########################################################################################
 
@@ -135,7 +135,7 @@ Tip:
 wann sich was geändert hat ! Der esp ansich schickt schon jede sekunde den zuletzt angenommenen Wert.
 
 - 1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain! ... kein muss
-- 2.Wenn WebInterface LL1L2L3?Value=200.66&Mode=SetAuto... genutzt wird dann schon alle sekunden senden
+- 2.Wenn WebInterface L1L2L3Auto?Value=200.66... genutzt wird dann schon alle sekunden senden
 
 
 Falls Ihr mich unterstützen wollt, Spenden sind herzlich willkommen und würde mich sehr freuen :-)
