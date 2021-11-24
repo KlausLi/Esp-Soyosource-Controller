@@ -1,3 +1,8 @@
+Was nett wäre, Vergesst bitte nicht meinen Kanal zu abonnieren und zu liken ;-) ... wann disliken gut wär, dann das auch :-))
+
+https://www.youtube.com/channel/UCC5FRN_C_i08eYrhzCWw5Jg
+
+
 Ich übernehme keine Haftung für Schäden, die aufgrund der Nutzung 
 der Software entstehen oder entstanden sind. 
 Jeder ist für sein tun selber verantwortlich.
@@ -21,6 +26,9 @@ wann er ständig versucht sich  ins Wlan einzuloggen
 Internet Explorer wird nicht unterstützt!(die kochen wieder eigenes Sueppchen bei Slider funktion)
 
 <img src="Soyosource.png" alt="Soyosource Controller by BavarianSuperGuy"/>
+<img src="Soyosource_ohne_display.png" alt="Soyosource Controller by BavarianSuperGuy"/>
+
+
 
 # EspSoyosourceController mit Webseite
 Der Esp8266 ist über ein Rs485 Modul mit dem Soyosource 1200 Solar/Batterie Wechselrichter verbunden und kann diesem die Leistungswerte senden die er im Stromnetz ausgleichen/einspeisen soll. 
