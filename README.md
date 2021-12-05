@@ -114,7 +114,7 @@ EINRICHTUNG#####################################################################
 - 1.Firmware auf den gelöschten Esp8266 flashen
 - 2.Esp Neustart
 - 3.Im Wlan nach SOYO_... suchen
-- 4.Wlan mit Pwd 12345678 verbinden
+- 4.Wlan mit Passwort 12345678 verbinden
 - 5.Es öffnet sich automatisch Browser Fenster mit 192.168.4.1
 - 6.Unter Configuration
 - 6.1 Wifi auswählen oder eingeben und Passwort eingeben
