@@ -130,6 +130,8 @@ INBETRIEBNAHME##################################################################
 ODER wann Nutzung von Mqtt aus ist :
 - 3.IPADRESS:80/L1L2L3Auto?Value=200.66
 - 3.1 IPADRESS durch die ip vom ESP ersetzen, 200.66 stellt den kummulierten Wert deiner 2/3 phasen da
+- 4 Bei Shelly3em Betriebsart , dei Betriebsart im blauen Bereich auswählen und die IpAdresse vom Shelly angeben
+	anschliessend auf Übernehmen klicken 
 INBETRIEBNAHME##########################################################################################
 
 CONFIGPORTAL############################################################################################
