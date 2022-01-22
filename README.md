@@ -12,7 +12,7 @@ GANZ UNTEN IST DAS ANSCHLUSSSCHEMA (Bastelplan3000)
 
 3 Dinge sind wichtig für die Umsetzung dieses Projekts:
 - 3,3V
-- Guter Wlan Empfang
+- Guter Wlan Empfang(Keine Leerzeichen in der SSID)
 - Readme vollstandig lesen, dann nochmal
 wann readme gelesen wurde und ihr daraufhin gemerkt habt
 aufgrund der Methode die beschrieben wird ,
