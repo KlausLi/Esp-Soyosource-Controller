@@ -165,6 +165,20 @@ oder -200.66 erwartet (Dezimaltrenner ist punkt) und muss immer den reelen/aktue
 - 1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain! ... kein muss
 - 2.Wenn WebInterface L1L2L3Auto?Value=200.66... genutzt wird dann schon alle sekunden senden
 
+########################################################################
+
+END HINWEIS(nur die harten kommen in den Garten) :
+
+Wann du von L1 L2 oder L3 nichts wissen willst oder sowieso GENERAL die Schnauze voll hast 
+- Kauf dir nen shelly3em
+- Bau ihn oder lass ihn fachmännisch im HAK einbauen
+- In der Esp Web Gui wählst du shelly client
+- In der Esp Web Gui gibst du die IP Adresse vom shelly3em ein
+- In der Esp Web Gui drückst du noch auf übernehmen und restart
+
+und schon wirds wieder RUHIG im DachstÜbchen! :-)
+
+###################################################################+####
 
 Falls Ihr mich unterstützen wollt, Spenden sind herzlich willkommen und würde mich sehr freuen :-)
 Hier bitte - https://paypal.me/armerprogrammer
