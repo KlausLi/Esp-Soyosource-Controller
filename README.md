@@ -157,7 +157,8 @@ wann sich was geändert hat ! Der esp ansich schickt schon jede sekunde den zule
 
 Allgemeiner Hinweis : als L1L2L3 Wert wird ein numerischer Wert wie z.B. 200.66 
 oder -200.66 erwartet (Dezimaltrenner ist punkt) und muss immer den reelen/aktuellen Verbrauch darstellen!
- z.B. L1L2L3 = L1(100)+L1(200)+L3(-300) =0
+ z.B. L1L2L3 = L1(100)+L2(200)+L3(-300) =0
+ 0 wird übergeben!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 - 1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain! ... kein muss
