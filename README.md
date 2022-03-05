@@ -167,7 +167,7 @@ oder -200.66 erwartet (Dezimaltrenner ist punkt) und muss immer den reelen/aktue
 
 ########################################################################
 
-END HINWEIS(nur die harten kommen in den Garten) :
+END HINWEIS(NICHT nur die harten, kommen in den Garten) :
 
 Wann du von L1 L2 oder L3 nichts wissen willst oder sowieso GENERAL die Schnauze voll hast 
 - Kauf dir nen shelly3em
@@ -177,6 +177,7 @@ Wann du von L1 L2 oder L3 nichts wissen willst oder sowieso GENERAL die Schnauze
 - In der Esp Web Gui drückst du noch auf übernehmen und restart
 
 und schon wirds wieder RUHIG im DachstÜbchen! :-)
+Zeit fürs Bier gewonnen!
 
 ###################################################################+####
 
