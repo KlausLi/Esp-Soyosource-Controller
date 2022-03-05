@@ -82,9 +82,11 @@ nach Update dann wieder zurückstellen und Übernehmen)
  Static HttpInterface und WebGui
  Auto Subscribe L1L2L3 Mqtt(wann man schon ein smartmeter mqtt publish Topic hat, kann man das hier eintragen)
  - Alle Interface's funktionieren weiterhin , jedoch wird der Wert nur von der ausgewählten Betriebsart und dessen Interface ausgewertet
+ ########## Deaktiviert ##########
  - NULL Punkt Einstellung - wann keine "reine" ~null~ einspeisung gewünscht kann bis zu 150watt verbrauch stehengelassen werden
  Update 19.10.2021 13:41 NULL Punkt Einstellung hat noch nen Denkfehler drin (in Std Einstellung funktioniert alles wie gewohnt)
  Update 19.10.2021 15:11 Denkfehler mit 1 Bier  in Version 1.0.1.7 behoben 
+ ########## Deaktiviert ##########
  - That's the one: uniGalaktische Version
  
  Wann in den blauen Bereichen was geändert wird muss es mit "Save Controller"  übernommen werden.
@@ -150,6 +152,11 @@ CONFIGPORTAL####################################################################
 Tip:
 -  nur leistungsdaten über L1L2L3 (egal welches Interface) senden
 wann sich was geändert hat ! Der esp ansich schickt schon jede sekunde den zuletzt angenommenen Wert.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Allgemeiner Hinweis : als L1L2L3 Wert wird ein numerischer Wert wie z.B. 200.66 
+oder -200.66 erwartet (Dezimaltrenner ist punkt) und muss immer den reelen/aktuellen Verbrauch darstellen!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 - 1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain! ... kein muss
 - 2.Wenn WebInterface L1L2L3Auto?Value=200.66... genutzt wird dann schon alle sekunden senden
