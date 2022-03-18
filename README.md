@@ -2,6 +2,15 @@ Was nett wäre, Vergesst bitte nicht meinen Kanal zu abonnieren und zu liken ;-)
 
 https://www.youtube.com/c/BavarianSuperGuy
 
+Soyo Film-> https://youtu.be/TAW5yowh12U
+
+Video zu 
+v1.0.2.5 
+Mehrere Soyo 
+mit einem ESP -> https://youtu.be/sVKFAbERqqg
+
+
+
 
 Ich übernehme keine Haftung für Schäden, die aufgrund der Nutzung 
 der Software entstehen oder entstanden sind. 
@@ -83,10 +92,10 @@ nach Update dann wieder zurückstellen und Übernehmen)
  Auto Subscribe L1L2L3 Mqtt(wann man schon ein smartmeter mqtt publish Topic hat, kann man das hier eintragen)
  - Alle Interface's funktionieren weiterhin , jedoch wird der Wert nur von der ausgewählten Betriebsart und dessen Interface ausgewertet
  - ########## Deaktiviert ##########
- NULL Punkt Einstellung - wann keine "reine" ~null~ einspeisung gewünscht kann bis zu 150watt verbrauch stehengelassen werden
- Update 19.10.2021 13:41 NULL Punkt Einstellung hat noch nen Denkfehler drin (in Std Einstellung funktioniert alles wie gewohnt)
- Update 19.10.2021 15:11 Denkfehler mit 1 Bier  in Version 1.0.1.7 behoben 
-Update 18.3.2022 v1.0.25  SollwertTeiler hinzugefügt , es können nun mehrere Soyos parallel an ein rs485 Modul angeschlossen werden und muss mit Soyo Button unter Sollwert Teiler eingestellt und gespeichert werden(SAVE Controller). Damit wird die and den ESP übergebene Leistung zu gleichen teilen an die angeschlossenen Soyos verteilt .
+ - NULL Punkt Einstellung - wann keine "reine" ~null~ einspeisung gewünscht kann bis zu 150watt verbrauch stehengelassen werden
+ - Update 19.10.2021 13:41 NULL Punkt Einstellung hat noch nen Denkfehler drin (in Std Einstellung funktioniert alles wie gewohnt)
+ - Update 19.10.2021 15:11 Denkfehler mit 1 Bier  in Version 1.0.1.7 behoben 
+- Update 18.3.2022 v1.0.25  SollwertTeiler hinzugefügt , es können nun mehrere Soyos parallel an ein rs485 Modul angeschlossen werden und muss mit Soyo Button unter Sollwert Teiler eingestellt und gespeichert werden(SAVE Controller). Damit wird die and den ESP übergebene Leistung zu gleichen teilen an die angeschlossenen Soyos verteilt .
  ########## Deaktiviert ##########
  - That's the one: uniGalaktische Version
  
