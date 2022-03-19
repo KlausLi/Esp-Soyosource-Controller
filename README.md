@@ -53,6 +53,8 @@ Die Firmware(firmware_vX.X.X.X.bin") ist im Verzeichnis espflasher.
 Diese kann unkompliziert auf einen 4Mbyte Esp mit dem im Verzeichnis enhaltenen
 Tool "FlashESP8266.exe" geflasht werden. 
 Dieses Tool FlashESP8266.exe ist nicht von mir , aber hat schon hevorragende Dienste geleistet.
+Es kann natürlich auch z.B. das Tasmotizer Firmware flash Tool zum aufspielen benutzt werden.
+(Tasmotizer: Erase Checkbox nicht vergessen vor dem ersten flashen anzuhaken)
 
 <img src="Webseite SOYOSOURCE Controller.png" alt="Soyosource Controller by BavarianSuperGuy"/>
 
