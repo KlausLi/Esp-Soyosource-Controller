@@ -103,7 +103,7 @@ nach Update dann wieder zurückstellen und Übernehmen)
  - That's the one: uniGalaktische Version
  
  Wann in den blauen Bereichen was geändert wird muss es mit "Save Controller"  übernommen werden.
-
+- Ein Restart nach Save Controller ist nur bei Betriebsart änderung erforderlich, schadet aber generell, daß zu tun, nix!
 - ...
 
 
