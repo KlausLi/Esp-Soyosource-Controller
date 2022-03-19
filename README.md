@@ -175,7 +175,7 @@ oder -200.66 erwartet (Dezimaltrenner ist punkt) und muss immer den reelen/aktue
  0 wird übergeben!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-- 1.Mqtt L1L2L3 Publish Setting : Qos2 und Retain! ... kein muss
+- 1.Mqtt L1L2L3 Publish Setting : Qos0 (fire & forget)
 - 2.Wenn WebInterface L1L2L3Auto?Value=200.66... genutzt wird dann schon alle sekunden senden
 
 ########################################################################
