@@ -113,7 +113,7 @@ nach Update dann wieder zurückstellen und Übernehmen)
  - Update 19.10.2021 15:11 Denkfehler mit 1 Bier  in Version 1.0.1.7 behoben 
 - Update 18.3.2022 v1.0.25  SollwertTeiler hinzugefügt , es können nun mehrere Soyos parallel an ein rs485 Modul angeschlossen werden und muss mit Soyo Button unter Sollwert Teiler eingestellt und gespeichert werden(SAVE Controller). Damit wird die and den ESP übergebene Leistung zu gleichen teilen an die angeschlossenen Soyos verteilt .
 - Wann mehr als 1 Soyo eingestellt wird, ist die DC Zeile(blinkt im regelbetrieb) stillgelegt, dies wird mit "S>1" (Soyo grösser 1) in den werten dargestellt. 
--Update 29.04.2022 v1.0.2.7 neue Betriebsart "Auto JsonHtpClient" , Liest den Verbrauchswert von einem Json aus ,mit eingabefeldern, da gibst du an:
+- Update 29.04.2022 v1.0.2.7 neue Betriebsart "Auto JsonHtpClient" , Liest den Verbrauchswert von einem Json aus ,mit eingabefeldern, da gibst du an:
  1. Http Get Url : http://192.168.2.237/cm?cmnd=status+10  (z.B. Tasmota SML Reader)
  2. Json Value Path : StatusSNS.SML.DJ_TPWRCURR   (Die Json Objekte müssen in der schreibweise mit punkt getrennt werden)
  #####
