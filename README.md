@@ -17,6 +17,18 @@ der Software entstehen oder entstanden sind.
 Jeder ist für sein tun selber verantwortlich.
 Mir sind keine Probleme bekannt.
 
+Vorab zum ESP8266 ein Hinweis!
+zu 100% Lauffähig ist die hier eingestellte Software mit einem ESP12 Modul!
+Dieses ESP12 Modul gibt es als e,f oder s Variante.
+Diese haben immer ein Abschirmblech verbaut und haben 4MByte(32Mbit) Ram!
+In der Regel haben D1 minis oder NodeMcu Platinen das ESP12 Modul verbaut!
+Diese funktionieren in der Regel auch gut aber die usbserial programmiereinrichtung 
+die mit auf der platine zum ESP12 Modul verbaut wird , ist teils oer meist störanfällig!
+Diese z.B. ch340 verbauten IC sind mit dem rx/tx des esp8266 im ESP12 Modul verbunden.
+Die Entkopplung von RX/TX ist den D1/Node Platinen Herstellern nicht immer gelungen!
+
+
+
 GANZ UNTEN IST DAS ANSCHLUSSSCHEMA (Bastelplan3000)
 
 3 Dinge sind wichtig für die Umsetzung dieses Projekts:
@@ -101,6 +113,14 @@ nach Update dann wieder zurückstellen und Übernehmen)
  - Update 19.10.2021 15:11 Denkfehler mit 1 Bier  in Version 1.0.1.7 behoben 
 - Update 18.3.2022 v1.0.25  SollwertTeiler hinzugefügt , es können nun mehrere Soyos parallel an ein rs485 Modul angeschlossen werden und muss mit Soyo Button unter Sollwert Teiler eingestellt und gespeichert werden(SAVE Controller). Damit wird die and den ESP übergebene Leistung zu gleichen teilen an die angeschlossenen Soyos verteilt .
 - Wann mehr als 1 Soyo eingestellt wird, ist die DC Zeile(blinkt im regelbetrieb) stillgelegt, dies wird mit "S>1" (Soyo grösser 1) in den werten dargestellt. 
+-Update 29.04.2022 v1.0.2.7 neue Betriebsart "Auto JsonHtpClient" , Liest den Verbrauchswert von einem Json aus ,mit eingabefeldern, da gibst du an:
+ 1. Http Get Url : http://192.168.2.237/cm?cmnd=status+10  (z.B. Tasmota SML Reader)
+ 2. Json Value Path : StatusSNS.SML.DJ_TPWRCURR   (Die Json Objekte müssen in der schreibweise mit punkt getrennt werden)
+ #####
+ Die JSON Objekte stammen aus diesem JSON das aus Tasmota SML von einem Zähler Lesekopf generiert wird !
+ {"StatusSNS":{"Time":"2022-04-28T14:01:19","SML":{"DJ_TPWRIN":1972.69,"DJ_TPWROUT":96.98,"DJ_TPWRCURR":2357.00,"Meter_number":"0901454d4800009c86bf"},"ESP32":{"Temperature":53.3},"Verbrauch Tag":"2.98","Verbrauch Monat":"146.13","Verbrauch Jahr":"1972.69","Einspeisung Tag":"0.14","ZÃ¤hlerstand 0:00Uhr":"1969.71","ZÃ¤hlerstand Monatsanfang":"1826.56","ZÃ¤hlerstand Jahrenanfang":"0.00","Kosten dieses Jahr":"567.42","TempUnit":"C"}}
+ #####
+ 
  
  - That's the one: uniGalaktische Version
  
