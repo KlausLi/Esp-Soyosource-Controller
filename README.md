@@ -1,3 +1,5 @@
+Explain: SUN1200BSG BluePill <- Codename for SolarAtomicBomb
+
 Was nett wäre, Vergesst bitte nicht meinen Kanal zu abonnieren und zu liken ;-) ... wann disliken gut wär, dann das auch :-))
 
 https://www.youtube.com/c/BavarianSuperGuy
