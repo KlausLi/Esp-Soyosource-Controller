@@ -4,6 +4,9 @@ Was nett wäre, Vergesst bitte nicht meinen Kanal zu abonnieren und zu liken ;-)
 
 https://www.youtube.com/c/BavarianSuperGuy
 
+Falls Ihr mich unterstützen wollt, Spenden sind herzlich willkommen und würde mich sehr freuen :-)
+Hier bitte - https://paypal.me/BSGuy
+
 Soyo Film-> https://youtu.be/TAW5yowh12U
 
 Video zu 
@@ -218,7 +221,5 @@ Zeit fürs Bier gewonnen!
 
 ###################################################################+####
 
-Falls Ihr mich unterstützen wollt, Spenden sind herzlich willkommen und würde mich sehr freuen :-)
-Hier bitte - https://paypal.me/armerprogrammer
 
 <img src="BastelPlan3000_Soyosource_Controller_by_BavarianSuperGuy.png" alt="Soyosource Controller by BavarianSuperGuy"/>
