@@ -127,7 +127,7 @@ nach Update dann wieder zurückstellen und Übernehmen)
  {"StatusSNS":{"Time":"2022-04-28T14:01:19","SML":{"DJ_TPWRIN":1972.69,"DJ_TPWROUT":96.98,"DJ_TPWRCURR":2357.00,"Meter_number":"0901454d4800009c86bf"},"ESP32":{"Temperature":53.3},"Verbrauch Tag":"2.98","Verbrauch Monat":"146.13","Verbrauch Jahr":"1972.69","Einspeisung Tag":"0.14","ZÃ¤hlerstand 0:00Uhr":"1969.71","ZÃ¤hlerstand Monatsanfang":"1826.56","ZÃ¤hlerstand Jahrenanfang":"0.00","Kosten dieses Jahr":"567.42","TempUnit":"C"}}
  #####
  
- - Update 1.0.3.3 29.04.2023 Shelly3em Pro Unterstütung  
+ - Update 29.04.2023 1.0.3.3 Shelly3em Pro Unterstütung  
  nach Schriftzug "Auto HttpClient(Shelly3EM) Pro" die checkbox aktivieren und Save klicken!  
  Falls man die Ip Adresse nicht auf statisch im Router fixiert hat,  
  wird nach diesem Update ne neue Ip geben
