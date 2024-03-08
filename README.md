@@ -55,7 +55,7 @@ wann er ständig versucht sich  ins Wlan einzuloggen
 Internet Explorer wird nicht unterstützt!(die kochen wieder eigenes Sueppchen bei Slider funktion)
 
 <img src="Soyosource.png" alt="Soyosource Controller by BavarianSuperGuy"/>
-<img src="Soyosource_ohne_display.png" alt="Soyosource Controller by BavarianSuperGuy"/>
+<img src="Soyosource_ohne_display.png" alt="Soyosourceid Controller by BavarianSuperGuy"/>
 
 
 
